@@ -1,0 +1,166 @@
+@media (min-width: 768px) and (max-width: 1024px) {
+    header {
+        .header-content {
+            padding-top: 150px;
+
+            p {
+                max-width: 500px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+        }
+    }
+
+    .navigator {
+        .nav-list {
+            padding-top: 200px;
+        }
+    }
+
+    #services {
+        .service-item {
+            width: 40%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    #works {
+        .work-item {
+            width: 48%;
+        }
+    }
+
+    #team {
+        .team-item {
+            width: 45%;
+            margin-bottom: 50px;
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 767px) {
+    header {
+        height: 100vh;
+
+        .header-content {
+            padding-top: 50px !important;
+
+            .buttons {
+                flex-wrap: wrap;
+
+                div {
+                    width: 80%;
+                    display: block;
+                    margin-left: 20px;
+
+                    &:last-child {
+                        margin-top: -80px;
+                    }
+
+                    a {
+                        width: 100%;
+                        display: block;
+                    }
+                }
+
+            }
+
+        }
+    }
+
+    #services {
+        .service-item {
+            width: 90%;
+            margin-right: auto;
+            margin-left: auto;
+        }
+    }
+
+    .subcribe {
+        #subcribe-form {
+            flex-wrap: wrap;
+
+            input {
+                width: 100%;
+                padding: 15px;
+                padding-left: 20px;
+                margin-bottom: 20px;
+            }
+
+            button {
+                width: 100%;
+            }
+        }
+    }
+
+    #works {
+        .work-item {
+            width: 100%;
+        }
+    }
+
+    #team {
+        .team-item {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+    }
+
+    #contact {
+        background-image: url(../img/contact-bg.png);
+        background-size: cover;
+
+        .container {
+            .section-header {
+                p {
+                    color: #FFF !important;
+                }
+            }
+        }
+
+        #contact-form {
+
+            .form-group {
+                flex-wrap: wrap;
+
+                input {
+                    width: 100%;
+
+                    &:first-child {
+                        margin-bottom: 20px;
+                    }
+                }
+
+                button {
+                    width: 100%;
+                    margin-bottom: 20px;
+                }
+
+                ul {
+                    max-width: 100%;
+                    width: 100%;
+                    margin-left: auto;
+                    margin-right: auto;
+                    justify-content: space-between;
+                }
+            }
+        }
+    }
+
+    footer {
+        .container {
+            h6 {
+                width: 100%;
+                text-align: center;
+                font-size: 0.9rem;
+
+                &:first-child {
+                    margin-bottom: 20px;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 320px) and (max-width: 1024px) {}
