@@ -773,4 +773,10 @@ footer .container h6 {
     margin-bottom: 20px;
   }
 }
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  .header-content {
+    margin-top: 0px !important;
+  }
+}
 /*# sourceMappingURL=style.css.map */
